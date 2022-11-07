@@ -1,0 +1,21 @@
+.position {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 5rem;
+}
+
+
+.empty {
+  opacity: 0.4;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+.listNotes {
+  display: grid;
+  justify-content: center;
+  gap: 20px 40px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(min-content, max-content);
+}

@@ -1,0 +1,42 @@
+.card {
+  max-width: 400px;
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(400px);
+  backdrop-filter: blur(400px);
+  border: 2px solid var(--white);
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--white);
+  overflow: hidden;
+}
+
+.card_header {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.heading {
+  font-weight: 600;
+  color: var(--white);
+}
+.date {
+  opacity: 0.9;
+  font-size: small;
+}
+
+.note {
+  font-size: 0.95em;
+}
+
+.card_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+article{
+  width: 250px;
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&display=swap');
+:root {
+
+  --white: #ffefef;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+
+body {
+  background-image: linear-gradient(-90deg, #aa4b6b 0%, #6b6b83 50%, #3b8d99 100%);
+  color: var(--white);
+}

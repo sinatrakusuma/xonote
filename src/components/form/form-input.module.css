@@ -1,0 +1,25 @@
+.form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 15rem;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.small {
+  text-align: right;
+  opacity: 0.9;
+  color: var(--white);
+}
+
+.counter {
+  color: var(--white);
+  font-weight: 700;
+}
+  

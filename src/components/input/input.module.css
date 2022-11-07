@@ -1,0 +1,37 @@
+.input {
+  border: 2px solid var(--white);
+  background-color: transparent;
+  outline: none;
+  border-radius: 0.4rem;
+  color: var(--white);
+  padding: 0.7rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  min-width: 340px;
+}
+
+.input::placeholder {
+  color: var(--white);
+}
+
+.input[type="search"] {
+  border: 2px solid -var(--white);
+  border-radius: 50px;
+}
+
+.input[type="submit"] {
+  cursor: pointer;
+}
+
+.input[type="submit"]:hover {
+  background-color: var(--white);
+  color: #000;
+  font-weight: 700;
+  opacity: 0.8;
+  transition: background-color 0.6s ease-in;
+}
+
+.textarea {
+  height: 10rem;
+  resize: none;
+}
